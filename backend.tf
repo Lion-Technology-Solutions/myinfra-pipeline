@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "my-s3-bucket-for-tf-state"
-    key = "main"
+    bucket = "jenkins-liontech"
+    key = "jenkins"
     region = "us-east-1"
-    dynamodb_table = "my-dynamo-db-table-tf"
+    #dynamodb_table = "my-dynamo-db-table-tf"
   }
 }
